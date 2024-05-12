@@ -1,0 +1,28 @@
+/* 全体の装飾*/
+body{
+    font-family:"Arial", "Meiryo", sans-serif;
+    font-size:20px;
+    text-align:center;
+}
+
+h1 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size:40px;
+    letter-spacing: 1.5em;
+    text-shadow: 1px 1px 2px gray;
+    border-bottom: dotted 3px rgb(115, 115, 114);
+}
+
+/* MYPROFILEの文字色指定 「M」*/
+#text-skyblue ,.text-color-blue{
+    color:#a0d8ef;
+}
+/* MYPROFILEの文字色指定 「P」*/
+#text-pink,.text-color-pink{
+   color:rgb(255, 192, 203);
+}
+
+/* 子孫要素のみ配色 */
+#parent > p {
+    font-weight: bold;
+}
