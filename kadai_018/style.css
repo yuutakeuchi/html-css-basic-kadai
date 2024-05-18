@@ -1,0 +1,23 @@
+
+#top div{
+    
+    width:800px;
+    background: #dcc9f4;
+}
+#top{
+    display: inline-block;
+}
+
+#middle{
+    display: inline-block;
+}
+
+#bottom{
+    display: inline-block;
+}
+
+
+.top-child{
+    width:20%;
+    background: #ffd9df;
+}
